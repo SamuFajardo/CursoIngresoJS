@@ -1,7 +1,11 @@
+/* Ejercicio 2 
+Samuel Fajardo*/
 /*
 Debemos lograr tomar un nombre con 'prompt' 
 y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
  { 
-	alert(prompt("Ingresar dato"));
+	 let nombre;
+	 nombre= prompt("Ingresar dato");
+	alert(nombre);
 }
