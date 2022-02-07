@@ -11,7 +11,6 @@ function mostrarAumento()
 	let result;
 	num1 = document.getElementById("txtIdSueldo").value;
 	num1 = parseInt(num1)
-	result = (num1(num1 / 100) * 10);
+	result = (num1+(num1 / 100) * 10);
 	document.getElementById("txtIdResultado").value = result;
-
 }
