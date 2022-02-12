@@ -1,13 +1,14 @@
 /* Ejercicio instruccion 4
-Samuel Fajardo*/
+Samuel Fajardo
+tomo la edad */
 function mostrar()
-//tomo la edad 
-{
+ {
 	let edad;
-	edad=document.getElementById("txtIdEdad").value;
-	edad=parseInt(edad);
-	if (edad>= 13 && edad<=17) 
+	edad = document.getElementById("txtIdEdad").value;
+	edad = parseInt(edad);
+	if (edad >= 13 && edad <= 17) 
 	{
-	  alert("Es adolescente");
+		alert("Es adolescente");
 	}
-}//FIN DE LA FUNCIÓN
+}
+//FIN DE LA FUNCIÓN

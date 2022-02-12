@@ -1,9 +1,23 @@
-function mostrar()
-{
-	//tomo el mes
-	var mesDelAño =txtIdMes.value;
-	alert(mesDelAño);
+/* Ejercicio switch 1
+Samuel Fajardo*/
+//tomo el mes
+function mostrar() {
+	let mesDelAño = txtIdMes.value;
+	switch (mesDelAño) {
+		case "Enero":
 
+				alert("Que comiences bien el año");
+				break;
+		case "Marzo":
+				alert("A clases");
+				break;
+		case "Julio":
 
-
-}//FIN DE LA FUNCIÓN
+				alert("Se vienen las vacaciones");
+				break;
+		case "Diciembre":
+				alert("Felices fiestas");
+				break;
+	}
+}
+//FIN DE LA FUNCIÓN

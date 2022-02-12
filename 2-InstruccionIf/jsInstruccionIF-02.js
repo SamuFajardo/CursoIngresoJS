@@ -1,14 +1,12 @@
 /* Ejercicio instruccion 2
 Samuel Fajardo*/
-function mostrar() 
-//tomo la edad  
-{
+//tomo la edad
+function mostrar() {
 	let edad;
 	edad = document.getElementById("txtIdEdad").value;
-	edad = parseInt(edad)
-
+	edad = parseInt(edad);
 	if (edad >= 18) {
 		alert("Es mayor de edad");
 	}
-
-}//FIN DE LA FUNCIÓN
+}
+//FIN DE LA FUNCIÓN
